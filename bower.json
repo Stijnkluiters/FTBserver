@@ -1,0 +1,24 @@
+{
+  "name": "FTBserver",
+  "authors": [
+    "stijnkluiters <stijnkluiters@hotmail.com>"
+  ],
+  "description": "FTBserver online api",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "directory": "web/assets/vendor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery_lazyload": "jquery.lazyload#^1.9.7",
+    "jquery": "^3.1.1",
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

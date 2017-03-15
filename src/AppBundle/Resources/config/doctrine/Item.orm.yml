@@ -1,0 +1,30 @@
+AppBundle\Entity\Item:
+    type: entity
+    table: null
+    repositoryClass: AppBundle\Repository\ItemRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        price:
+            type: integer
+            nullable: true
+        money:
+            type: decimal
+            precision: 10
+            scale: '2'
+            nullable: true
+        createdAt:
+            type: datetime
+            column: created_at
+        updatedAt:
+            type: datetime
+            nullable: true
+            column: updated_at
+    lifecycleCallbacks: {  }
